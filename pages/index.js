@@ -28,7 +28,7 @@ export default function Home({ isConnected }) {
         });
       });
     });
-  }, []);
+  }, [imageListRef]);
   return (
     <div className="container">
       <Head>
